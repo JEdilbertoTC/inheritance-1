@@ -1,9 +1,7 @@
 package uaslp.enginering.labs;
 
-public class Control {
+public abstract class Control {
 
-    protected void draw() {
-        System.out.print(" - Control - ");
-    }
+    protected  abstract void draw();
 
 }
